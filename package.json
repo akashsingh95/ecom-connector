@@ -1,0 +1,32 @@
+{
+  "name": "ecom-connector",
+  "version": "0.1.0",
+  "description": "Standalone, multi-client marketplace OAuth connector — owns tenant registration, Amazon/Flipkart OAuth, token lifecycle, and order fetch on behalf of any client application (Speedecom is Client #1, not the only one).",
+  "main": "index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "argon2": "^0.45.1",
+    "aws4": "^1.13.2",
+    "axios": "^1.17.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "fast-xml-parser": "^5.11.1",
+    "helmet": "^8.3.0",
+    "joi": "^18.0.2",
+    "mongoose": "^9.0.2",
+    "redis": "^5.10.0",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

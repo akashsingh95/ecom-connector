@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+
+# Testing
+coverage
+
+# Env — every .env* is ignored except the committed template
+.env
+.env.*
+!.env.example
+
+# Logs (logger/logger.js writes here — see README)
+logs
+*.log
+
+# Misc
+.DS_Store
+.npm
+*.pid
+*.seed
+*.pid.lock
+*.local
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
